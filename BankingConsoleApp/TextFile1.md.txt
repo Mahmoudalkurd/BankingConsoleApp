@@ -1,0 +1,39 @@
+﻿# 💼 Banking Console Application (C# .NET + SQL Server LocalDB)
+
+This is a console-based banking system built in **C# (.NET 8)** with database integration using **SQL Server LocalDB**. It supports customer accounts, transactions, and balance management with modern console UI using **Spectre.Console**.
+
+---
+
+## ✅ Features
+
+- Create and manage customers and bank accounts
+- Transfer money between accounts
+- View transaction history and top balances
+- LocalDB connection using ADO.NET
+- Stored procedures, views, encryption (VG level)
+- Spectre.Console used for styled menus and output
+- Clean architecture with `Models`, `Services`, and `Database`
+
+---
+
+## 🧱 Technologies Used
+
+- C# .NET 8
+- SQL Server LocalDB
+- Spectre.Console (for UI)
+- ADO.NET (`System.Data.SqlClient`)
+- Git + GitHub for version control
+
+---
+
+## 💻 How to Run the App
+
+1. Make sure you have:
+   - [.NET 8 SDK](https://dotnet.microsoft.com/)
+   - [SQL Server LocalDB](https://learn.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-express-localdb)
+   - Git installed
+
+2. Clone the repository:
+```bash
+git clone https://github.com/YOUR-USERNAME/BankingConsoleApp.git
+cd BankingConsoleApp
